@@ -55,3 +55,7 @@ nav .about:hover .dropdown{
     max-width: 700px;
     margin: 0 auto;
 }
+.hero-btn{
+    margin-top: 20px;
+    padding: 15px 30px;
+}
