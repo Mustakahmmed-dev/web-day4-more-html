@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav > ul{
+    display: flex;
+    padding: 0 20px;
+    justify-content: center;
+    position: relative;
+}
+ul > li{
+    list-style: none;
+    margin-right: 15px;
+    border-radius: 8px;
+    padding: 10px 15px;
+
+}
+ul li:hover{
+    background: peru;
+}
+ul a{
+    text-decoration: none;
+    color: black;
+
+}
+/* Dropdown */
+.dropdown{
+    position: absolute;
+    min-width: 200px;
+    background-color: teal;
+    padding: 10px 15px;
+    border-radius: 8px;
+    display: none;
+    margin-top: 10px;
+}
+nav .about:hover .dropdown{
+    display: block;
+}
+/* Navbar ends here */
+
+/* Home hero */
+#hero{
+    min-height: 80vh;
+    width: 100%;
+    background-image: url('../images/home-hero.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    align-items: center;
+    display: flex;
+}
+.hero-bio{
+    max-width: 700px;
+    margin: 0 auto;
+}
